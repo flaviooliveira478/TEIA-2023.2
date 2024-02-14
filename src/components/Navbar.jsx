@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../index.css";
+import { Link } from "react-router-dom";
 const Nav = () => {
   const [saudacao, setSaudacao] = useState("");
 
@@ -21,9 +22,9 @@ const Nav = () => {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to="/">
           Techverse
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -38,24 +39,29 @@ const Nav = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <Link className="nav-link activ" aria-current="page" to="/">
                 Inicio
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/dispositivos">
                 Dispositivos
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/ciencia">
                 Ciência
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link className="nav-link" to="/tecnologia">
                 Tecnologia
-              </a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/sobre">
+                Sobre
+              </Link>
             </li>
             <li className="nav-item">
               <a className="nav-link " href="#">

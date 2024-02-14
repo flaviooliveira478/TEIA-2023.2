@@ -25,7 +25,7 @@ body {
 }
 
 ul.navbar-nav {
-  padding-left: 460px;
+  padding-left: 360px;
 }
 
 /* TITLE */
@@ -68,9 +68,9 @@ ul.navbar-nav {
   margin-bottom: 40px;
 }
 
-.news-container {
+/* .news-container {
 }
-
+ */
 .news-square {
   height: 600px;
   width: 370px !important;
