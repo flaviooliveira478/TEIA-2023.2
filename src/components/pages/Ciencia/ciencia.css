@@ -1,0 +1,53 @@
+.gradient-text-science {
+  margin: 60px 80px 0px 80px;
+  padding-top: 80px;
+  height: 380px;
+  border-radius: 8px;
+  background-image: linear-gradient(
+      rgba(6, 9, 15, 0.4) 53.65%,
+      rgb(6, 9, 15) 100%
+    ),
+    url("../../../assets/images/cience-leonard-ai.jpg");
+  background-size: 50%;
+  background-position: center;
+}
+
+.gradient-text-science h2 {
+  color: white;
+  text-align: left;
+  font-size: 2.2rem;
+  margin-left: 30px;
+}
+
+.gradient-text-science p {
+  color: white;
+  text-align: left;
+  font-size: 1.6rem;
+  margin-left: 30px;
+}
+
+.gradient-text-science h4 {
+  color: white;
+  text-align: left;
+  font-size: 1.2rem;
+  margin-left: 4px;
+  margin-top: 142px;
+  height: 38px;
+  padding: 3px;
+  width: 77px;
+  border-radius: 0;
+}
+
+.science-container {
+  color: white;
+  margin-top: 50px;
+}
+
+.science-square {
+  height: 380px;
+  width: 370px !important;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  border: 1px solid white;
+}
