@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../index.css";
-import "./Navbar.css";
 import { Link } from "react-router-dom";
-import logo from "../assets/images/logo.png"
+import logo from "../assets/images/logo.png";
 
 const Nav = () => {
   const [saudacao, setSaudacao] = useState("");
@@ -25,9 +24,6 @@ const Nav = () => {
   return (
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
-        <div className="mydiv">
-          <img className="logo-portal" src={logo} alt="Descrição da imagem" />
-        </div>
         <div>
           <Link className="navbar-brand" to="/">
             Techverse

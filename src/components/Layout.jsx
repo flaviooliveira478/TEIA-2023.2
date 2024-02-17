@@ -7,29 +7,47 @@ const Layout = ({ infos }) => {
     <div className="container">
       <div className="row">
         <div className="col-6 img-left">
-          <img src={infos[0].imagem} alt="Imagem esquerda" />
-          <p>{infos[0].tag}</p>
-          <p>{infos[0].titulo}</p>
-          <a className="nav-link " href="noticias/1931093">
-            <span className="btn btn-primary">Ver Notícia</span>
-          </a>
+          <Link to={`noticias/${infos[0].id}`}>
+            <div className="img-overlay"></div>
+            <img
+              src={infos[0].imagem}
+              alt="Imagem esquerda"
+              className="image-layout-left"
+            />
+            <div className="text-overlay">
+              <p className="btn btn-primary">{infos[0].tag}</p>
+              <h6>{infos[0].titulo}</h6>
+            </div>
+          </Link>
         </div>
         <div className="col-6">
           <div className="col-12 img-right">
-            <img src={infos[1].imagem} alt="Imagem direita 1" />
-            <p>{infos[1].tag}</p>
-            <p>{infos[1].titulo}</p>
-            <a className="nav-link " href="noticias/1931093">
-              <span className="btn btn-primary">Ver Notícia</span>
-            </a>
+            <Link to={`noticias/${infos[1].id}`}>
+              <div className="img-overlay"></div>
+              <img
+                src={infos[1].imagem}
+                alt="Imagem direita 1"
+                className="image-layout-right"
+              />
+              <div className="text-overlay">
+                <p className="btn btn-primary">{infos[1].tag}</p>
+                <h6>{infos[1].titulo}</h6>
+              </div>
+            </Link>
           </div>
           <div className="col-12 img-right">
-            <img src={infos[2].imagem} alt="Imagem direita 2" />
-            <p>{infos[2].tag}</p>
-            <p>{infos[2].titulo}</p>
-            <a className="nav-link " href="noticias/1931093">
-              <span className="btn btn-primary">Ver Notícia</span>
-            </a>
+            <Link to={`noticias/${infos[2].id}`}>
+              <div className="img-overlay"></div>
+              <img
+                src={infos[2].imagem}
+                alt="Imagem direita 2"
+                className="image-layout-right"
+              />
+              <div className="text-overlay">
+                <p className="btn btn-primary">{infos[2].tag}</p>
+                <h6>{infos[2].titulo}</h6>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

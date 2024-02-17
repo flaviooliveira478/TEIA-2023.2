@@ -4,7 +4,7 @@ import Layout from "../../Layout.jsx";
 import News from "../../News.jsx";
 import Releases from "../../Releases.jsx";
 import Footer from "../../Footer.jsx";
-import post1 from "../../../assets/images/post1.jpg";
+import post1 from "../../../assets/images/image-deviceheat-leonard-ai.jpg";
 
 const Home = () => {
   const destaques = [

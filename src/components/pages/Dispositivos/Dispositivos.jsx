@@ -1,46 +1,114 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./dispositivos.css";
-import devices from "../../../assets/images/devices-leonard-ai.jpg";
+import post1 from "../../../assets/images/image-deviceheat-leonard-ai.jpg";
+import post4 from "../../../assets/images/image-vr-leonard-ai.jpg";
+
 const Dispositivos = () => {
   return (
     <div className="gradient-text">
-      <h2>Dispositivos</h2>
-      <p>
+      <h2 className="titulo-device">Dispositivos</h2>
+      <p className="description-device">
         "Explore o universo tecnológico como nunca antes! Descubra as últimas
         novidades, análises e insights sobre dispositivos inovadores no
         Techverse, sua fonte definitiva para tudo relacionado à tecnologia."
       </p>
 
-      <h4 className="btn btn-primary">Notícias</h4>
+      <h4 className="btn btn-primary device-primary-titulo">Notícias</h4>
       <div className="container device-container">
         <div className="row">
-          <div className="col-3 col-sm-6 device-square">
-            <img src="" alt="ainda não tem" />
-            <h4></h4>
-            <h4></h4>
-            <p></p>
-            <p></p>
+          <div className="col-3 col-sm-6 device-square text-overlay">
+            <Link to="../noticias/1">
+              <img src={post1} alt="dispositivo temperatura" />
+              <div className="overlay-text">
+                <h4 className="new-h4">Dispositivos</h4>
+                <h4>
+                  Dispositivo inovador promete combater calor extremo no
+                  trabalho
+                </h4>
+                <p>
+                  Trabalhadores que enfrentam o calor infernal no dia a dia
+                  podem ter um novo aliado: um dispositivo vestível capaz de
+                  monitorar a temperatura corporal em tempo real e alertar sobre
+                  o risco de superaquecimento.
+                </p>
+                <p className="lermore">Ler Mais</p>
+              </div>
+            </Link>
           </div>
-          <div className="col-3 col-sm-6 device-square">
-            <img src="" alt="ainda não tem" />
-            <h4></h4>
-            <h4></h4>
-            <p></p>
-            <p></p>
+
+          <div className="col-3 col-sm-6 device-square text-overlay">
+            <Link to="../noticias/4">
+              <img src={post4} alt="dispositivo oculos vr" />
+              <div className="overlay-text">
+                <h4 className="new-h4">Dispositivos</h4>
+                <h4>
+                  Metaverso: Mergulhando em um Novo Mundo de Possibilidades
+                </h4>
+                <p>
+                  O metaverso está se tornando uma das tendências tecnológicas
+                  mais quentes do momento. Essa nova fronteira digital promete
+                  revolucionar a maneira como nos comunicamos, trabalhamos, nos
+                  divertimos e experimentamos o mundo.
+                </p>
+                <p className="lermore">Ler Mais</p>
+              </div>
+            </Link>
           </div>
-          <div className="col-3 co-sm-6 device-square">
-            <img src="" alt="ainda não tem" />
-            <h4></h4>
-            <h4></h4>
-            <p></p>
-            <p></p>
+
+          <div className="col-3 col-sm-6 device-square text-overlay">
+            <Link to="../noticias/4">
+              <img src={post4} alt="dispositivo oculos vr" />
+              <div className="overlay-text">
+                <h4 className="new-h4">Dispositivos</h4>
+                <h4>
+                  Metaverso: Mergulhando em um Novo Mundo de Possibilidades
+                </h4>
+                <p>
+                  O metaverso está se tornando uma das tendências tecnológicas
+                  mais quentes do momento. Essa nova fronteira digital promete
+                  revolucionar a maneira como nos comunicamos, trabalhamos, nos
+                  divertimos e experimentamos o mundo.
+                </p>
+                <p className="lermore">Ler Mais</p>
+              </div>
+            </Link>
           </div>
-          <div className="col-3 co-sm-6 device-square">
-            <img src="" alt="ainda não tem" />
-            <h4></h4>
-            <h4></h4>
-            <p></p>
-            <p></p>
+          <div className="col-3 col-sm-6 device-square text-overlay">
+            <Link to="../noticias/4">
+              <img src={post4} alt="dispositivo oculos vr" />
+              <div className="overlay-text">
+                <h4 className="new-h4">Dispositivos</h4>
+                <h4>
+                  Metaverso: Mergulhando em um Novo Mundo de Possibilidades
+                </h4>
+                <p>
+                  O metaverso está se tornando uma das tendências tecnológicas
+                  mais quentes do momento. Essa nova fronteira digital promete
+                  revolucionar a maneira como nos comunicamos, trabalhamos, nos
+                  divertimos e experimentamos o mundo.
+                </p>
+                <p className="lermore">Ler Mais</p>
+              </div>
+            </Link>
+          </div>
+          <div className="col-3 col-sm-6 device-square text-overlay">
+            <Link to="../noticias/4">
+              <img src={post4} alt="dispositivo oculos vr" />
+              <div className="overlay-text">
+                <h4 className="new-h4">Dispositivos</h4>
+                <h4>
+                  Metaverso: Mergulhando em um Novo Mundo de Possibilidades
+                </h4>
+                <p>
+                  O metaverso está se tornando uma das tendências tecnológicas
+                  mais quentes do momento. Essa nova fronteira digital promete
+                  revolucionar a maneira como nos comunicamos, trabalhamos, nos
+                  divertimos e experimentamos o mundo.
+                </p>
+                <p className="lermore">Ler Mais</p>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

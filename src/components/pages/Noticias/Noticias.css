@@ -1,0 +1,28 @@
+.noticias-posts {
+  text-align: center;
+  color: white;
+  margin-top: 80px;
+}
+
+.news-post-p {
+  text-align: center;
+  color: rgb(163, 163, 163);
+
+  text-align: justify;
+  font-size: 1.2em;
+  padding: 80px;
+}
+
+h5 {
+  text-align: center;
+  color: #0d6efd;
+}
+
+h2 {
+  font-size: 2rem;
+}
+img {
+  width: 800px;
+  height: 500px;
+  border-radius: 12px;
+}
