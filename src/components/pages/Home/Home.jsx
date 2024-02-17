@@ -4,17 +4,19 @@ import Layout from "../../Layout.jsx";
 import News from "../../News.jsx";
 import Releases from "../../Releases.jsx";
 import Footer from "../../Footer.jsx";
+import image from "../../../assets/images/1.jpg"
+import image2 from "../../../assets/images/2.jpg"
 
 const Home = () => {
   const destaques = [
     {
-      imagem: "",
+      imagem: image,
       tag: "Series",
       titulo:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatem quaerat perspiciatis tempor",
     },
     {
-      imagem: "",
+      imagem: image2,
       tag: "Tecnologia",
       titulo:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatem quaerat perspiciatis tempor",
@@ -29,7 +31,7 @@ const Home = () => {
 
   const noticias = [
     {
-      imagem: "imagem1.jpg",
+      imagem: "../../assets/images/1.jpg",
       tag: "Tag1",
       title: "Título1",
       text: "Texto1",
