@@ -18,23 +18,20 @@ const Tecnologia = () => {
         </p>
       </div>
 
-      <h4 className="btn btn-primary">Notícias</h4>
       <div className="container device-container">
       <div className="row">
           <div className="col-3 col-sm-6 device-square text-overlay">
-            <Link to="../noticias/1">
+            <Link to="../noticias/7">
               <img src={post1} alt="dispositivo temperatura" />
               <div className="overlay-text">
-                <h4 className="new-h4">Dispositivos</h4>
+                <h4 className="new-h4">Tecnologia</h4>
                 <h4>
-                  Dispositivo inovador promete combater calor extremo no
-                  trabalho
+                  Avanços Revolucionários na Inteligência Artificial Prometem Transformar Radicalmente a Tecnologia
                 </h4>
                 <p>
-                  Trabalhadores que enfrentam o calor infernal no dia a dia
-                  podem ter um novo aliado: um dispositivo vestível capaz de
-                  monitorar a temperatura corporal em tempo real e alertar sobre
-                  o risco de superaquecimento.
+                  Uma nova era de inovação está se desenhando no horizonte da tecnologia, 
+                  impulsionada por avanços revolucionários na inteligência 
+                  artificial (IA). 
                 </p>
                 <p className="lermore">Ler Mais</p>
               </div>
@@ -45,15 +42,11 @@ const Tecnologia = () => {
             <Link to="../noticias/4">
               <img src={post4} alt="dispositivo oculos vr" />
               <div className="overlay-text">
-                <h4 className="new-h4">Dispositivos</h4>
+                <h4 className="new-h4">Tecnologia</h4>
                 <h4>
-                  Metaverso: Mergulhando em um Novo Mundo de Possibilidades
-                </h4>
+                Robôs Colaborativos Redefinem a Manufatura com Eficiência e Precisão                </h4>
                 <p>
-                  O metaverso está se tornando uma das tendências tecnológicas
-                  mais quentes do momento. Essa nova fronteira digital promete
-                  revolucionar a maneira como nos comunicamos, trabalhamos, nos
-                  divertimos e experimentamos o mundo.
+                Na vanguarda da revolução industrial, os robôs colaborativos estão redefinindo os padrões de eficiência e precisão na manufatura.
                 </p>
                 <p className="lermore">Ler Mais</p>
               </div>
@@ -64,15 +57,11 @@ const Tecnologia = () => {
             <Link to="../noticias/4">
               <img src={post4} alt="dispositivo oculos vr" />
               <div className="overlay-text">
-                <h4 className="new-h4">Dispositivos</h4>
+                <h4 className="new-h4">Tecnologia</h4>
                 <h4>
-                  Metaverso: Mergulhando em um Novo Mundo de Possibilidades
-                </h4>
+                Blockchain na Saúde: Garantindo a Segurança e Integridade dos Dados Médicos                </h4>
                 <p>
-                  O metaverso está se tornando uma das tendências tecnológicas
-                  mais quentes do momento. Essa nova fronteira digital promete
-                  revolucionar a maneira como nos comunicamos, trabalhamos, nos
-                  divertimos e experimentamos o mundo.
+                A tecnologia blockchain está encontrando novas aplicações no setor de saúde, proporcionando uma solução inovadora para a segurança e integridade dos dados médicos.
                 </p>
                 <p className="lermore">Ler Mais</p>
               </div>
@@ -82,15 +71,11 @@ const Tecnologia = () => {
             <Link to="../noticias/4">
               <img src={post4} alt="dispositivo oculos vr" />
               <div className="overlay-text">
-                <h4 className="new-h4">Dispositivos</h4>
+                <h4 className="new-h4">Tecnologia</h4>
                 <h4>
-                  Metaverso: Mergulhando em um Novo Mundo de Possibilidades
-                </h4>
+                Realidade Aumentada Chega aos Espaços de Trabalho, Transformando a Experiência Profissional                </h4>
                 <p>
-                  O metaverso está se tornando uma das tendências tecnológicas
-                  mais quentes do momento. Essa nova fronteira digital promete
-                  revolucionar a maneira como nos comunicamos, trabalhamos, nos
-                  divertimos e experimentamos o mundo.
+                A realidade aumentada (RA) está deixando de ser uma tecnologia exclusiva do entretenimento e invadindo os espaços de trabalho, transformando a experiência profissional.
                 </p>
                 <p className="lermore">Ler Mais</p>
               </div>
@@ -100,15 +85,11 @@ const Tecnologia = () => {
             <Link to="../noticias/4">
               <img src={post4} alt="dispositivo oculos vr" />
               <div className="overlay-text">
-                <h4 className="new-h4">Dispositivos</h4>
+                <h4 className="new-h4">Tecnologia</h4>
                 <h4>
-                  Metaverso: Mergulhando em um Novo Mundo de Possibilidades
-                </h4>
+                Computação Quântica: Avanços Promissores Rumo à Supremacia Quântica                </h4>
                 <p>
-                  O metaverso está se tornando uma das tendências tecnológicas
-                  mais quentes do momento. Essa nova fronteira digital promete
-                  revolucionar a maneira como nos comunicamos, trabalhamos, nos
-                  divertimos e experimentamos o mundo.
+                Os avanços na computação quântica estão acelerando, sinalizando passos significativos em direção à tão esperada supremacia quântica.
                 </p>
                 <p className="lermore">Ler Mais</p>
               </div>
