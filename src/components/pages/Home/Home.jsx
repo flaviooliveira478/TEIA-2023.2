@@ -3,8 +3,8 @@ import Title from "../../Title.jsx";
 import Layout from "../../Layout.jsx";
 import News from "../../News.jsx";
 import Releases from "../../Releases.jsx";
-import Footer from "../../Footer.jsx";
 import post1 from "../../../assets/images/image-deviceheat-leonard-ai.jpg";
+import post3 from "../../../assets/images/image-Alzheimer-leonardo-ai.jpg";
 
 const Home = () => {
   const destaques = [
@@ -23,7 +23,7 @@ const Home = () => {
     },
     {
       id: 3,
-      imagem: post1,
+      imagem: post3,
       tag: "Ciência",
       titulo:
         "Nobel de Fisiologia ou Medicina premia responsáveis pelas vacinas de mRNA contra Covid-19",
@@ -73,7 +73,6 @@ const Home = () => {
       <Layout infos={destaques} />
       <News noticias={noticias} />
       <Releases dados={lancamentos} />
-      <Footer />
     </div>
   );
 };
