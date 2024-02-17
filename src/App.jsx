@@ -11,6 +11,8 @@ import Dispositivos from "./components/pages/Dispositivos/Dispositivos.jsx";
 import Ciencia from "./components/pages/Ciencia/Ciencia.jsx";
 import Tecnologia from "./components/pages/Tecnologia/Tecnologia.jsx";
 import Sobre from "./components/pages/Sobre/Sobre.jsx";
+import Noticias from "./components/pages/Noticias/Noticias.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
         <Route path="/ciencia" element={<Ciencia />} />
         <Route path="/tecnologia" element={<Tecnologia />} />
         <Route path="/sobre" element={<Sobre />} />
+        <Route path="/noticias/:id" element={<Noticias />} />
       </Routes>
     </div>
   );
