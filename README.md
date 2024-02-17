@@ -2,6 +2,10 @@
 
 COMP0492 - TÓPICOS ESPECIAIS EM INTELIGÊNCIA ARTIFICIAL (2023.2 - T01)
 
+## Techverse
+
+![techverse](src/assets/images/techverse.png)
+
 Grupo:
 
 1) FLAVIO EMANUEL DE OLIVEIRA SANTOS (201900016974)
