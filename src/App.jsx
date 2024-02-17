@@ -26,6 +26,7 @@ function App() {
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/noticias/:id" element={<Noticias />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

@@ -59,7 +59,8 @@ const Noticias = () => {
       id: 2,
       audio: audio2,
       tag: "Ciência",
-      title: "Nobel de Fisiologia ou Medicina: Reconhecimento por Vacinas de mRNA",
+      title:
+        "Nobel de Fisiologia ou Medicina: Reconhecimento por Vacinas de mRNA",
       imagem: post2,
       text: `A bioquímica Katalin Karikó e o imunologista Drew Weissman receberam o Nobel de Fisiologia ou Medicina 2023 por suas pesquisas 
             que lançaram as bases para as vacinas de RNA mensageiro (mRNA) contra a Covid-19.
@@ -142,7 +143,8 @@ const Noticias = () => {
       id: 5,
       tag: "Ciência",
       audio: audio5,
-      title: "Ciência de dados e IA na saúde: otimização e escalabilidade para um futuro promissor",
+      title:
+        "Ciência de dados e IA na saúde: otimização e escalabilidade para um futuro promissor",
       imagem: post5,
       text: `Desafios e oportunidades: O setor da saúde enfrenta a constante necessidade de otimizar operações e lidar 
             com a escassez de profissionais qualificados. A ciência de dados e a IA surgem como aliadas para superar esses desafios, 
@@ -201,7 +203,6 @@ const Noticias = () => {
       ) : (
         <p>Notícia não encontrada</p>
       )}
-      <Footer />
     </div>
   );
 };
