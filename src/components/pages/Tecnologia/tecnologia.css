@@ -1,6 +1,6 @@
 .gradient-text-tech {
-  margin: 60px 80px 0px 80px;
-  padding-top: 80px;
+  margin: 60px 80px 20px 80px;
+  padding-top: 26px;
   height: 380px;
   border-radius: 8px;
   background-image: linear-gradient(
@@ -63,7 +63,7 @@
 
 .device-container {
   color: white;
-  margin-top: 50px;
+  margin-top: 88px !important;
 }
 
 .device-square {
@@ -73,6 +73,18 @@
   margin-bottom: 20px;
   border-radius: 12px;
   border: 1px solid white;
+}
+
+.device-primary-titulo {
+  color: white;
+  text-align: left;
+  font-size: 1.2rem;
+  margin-left: 4px;
+  margin-top: 132px;
+  height: 38px;
+  padding: 3px;
+  width: 77px;
+  border-radius: 0;
 }
 
 .text-overlay img {

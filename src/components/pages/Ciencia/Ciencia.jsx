@@ -7,17 +7,19 @@ import post5 from "../../../assets/images/image-ia-na-saude-leonardo-ai.jpg";
 
 const Ciencia = () => {
   return (
-    <div className="gradient-text-science">
-      <h2 className="titulo-device">Ciência</h2>
-      <p className="description-device">
-        "Explore as fronteiras do conhecimento científico no Techverse! Nossa
-        aba dedicada à Ciência oferece uma jornada fascinante através das
-        últimas descobertas, teorias inovadoras e avanços que moldam o nosso
-        mundo."
-      </p>
+    <div>
+      <div className="gradient-text-science">
+        <h2 className="titulo-science">Ciência</h2>
+        <p className="description-science">
+          "Explore as fronteiras do conhecimento científico no Techverse! Nossa
+          aba dedicada à Ciência oferece uma jornada fascinante através das
+          últimas descobertas, teorias inovadoras e avanços que moldam o nosso
+          mundo."
+        </p>
 
-      <h4 className="btn btn-primary device-primary-titulo">Notícias</h4>
-      <div className="container device-container">
+        <h4 className="btn btn-primary science-primary-titulo">Notícias</h4>
+      </div>
+      <div className="container science-container">
         <div className="row">
           <div className="col-3 col-sm-6 device-square text-overlay">
             <Link to="../noticias/2">
@@ -58,6 +60,23 @@ const Ciencia = () => {
             </Link>
           </div>
 
+          <div className="col-3 col-sm-6 device-square text-overlay">
+            <Link to="../noticias/5">
+              <img src={post5} alt="Imagem sobre IA na saúde" />
+              <div className="overlay-text">
+                <h4 className="new-h4">Ciência</h4>
+                <h4>Ciência de dados e IA na saúde</h4>
+                <p>
+                  O setor da saúde enfrenta a constante necessidade de otimizar
+                  operações e lidar com a escassez de profissionais
+                  qualificados. A ciência de dados e a IA surgem como aliadas
+                  para superar esses desafios, impulsionando a escalabilidade e
+                  a eficiência.
+                </p>
+                <p className="lermore">Ler Mais</p>
+              </div>
+            </Link>
+          </div>
           <div className="col-3 col-sm-6 device-square text-overlay">
             <Link to="../noticias/5">
               <img src={post5} alt="Imagem sobre IA na saúde" />
