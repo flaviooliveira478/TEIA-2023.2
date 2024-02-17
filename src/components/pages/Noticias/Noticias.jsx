@@ -6,11 +6,17 @@ import "./Noticias.css";
 
 /* Imagens*/
 import post1 from "../../../assets/images/image-deviceheat-leonard-ai.jpg";
+import post2 from "../../../assets/images/image-vaccine-leonardo-ai.jpg";
+import post3 from "../../../assets/images/image-Alzheimer-leonardo-ai.jpg";
 import post4 from "../../../assets/images/image-vr-leonard-ai.jpg";
+import post5 from "../../../assets/images/image-ia-na-saude-leonardo-ai.jpg";
 
 /* Audio */
 import audio1 from "../../../assets/audio/Dispositivo inovador promete combater calor extremo no trabalho.mp3";
+import audio2 from "../../../assets/audio/audio-nobel-fisiologia-medicina-2023.mp3";
+import audio3 from "../../../assets/audio/audio-alzheimer.mp3";
 import audio4 from "../../../assets/audio/Metaverso Mergulhando em um Novo Mundo de Possibilidades.mp3";
+import audio5 from "../../../assets/audio/audio-ciencia-dados-ia-saude.mp3";
 
 const Noticias = () => {
   const params = useParams();
@@ -51,16 +57,46 @@ const Noticias = () => {
     },
     {
       id: 2,
-      tag: "Tag2",
-      title: "Título2",
-      text: "Texto2",
+      audio: audio2,
+      tag: "Ciência",
+      title: "Nobel de Fisiologia ou Medicina: Reconhecimento por Vacinas de mRNA",
+      imagem: post2,
+      text: `A bioquímica Katalin Karikó e o imunologista Drew Weissman receberam o Nobel de Fisiologia ou Medicina 2023 por suas pesquisas 
+            que lançaram as bases para as vacinas de RNA mensageiro (mRNA) contra a Covid-19.
+            
+            As vacinas de mRNA, desenvolvidas pelas empresas Moderna e Pfizer/BioNTech, foram fundamentais no combate à pandemia, com mais 
+            de 13 bilhões de doses administradas em todo o mundo.
+            
+            Karikó e Weissman descobriram como modificar o mRNA sintético para que ele não fosse rejeitado pelo sistema imunológico, 
+            permitindo sua aplicação terapêutica.
+            
+            As pesquisas da dupla iniciaram-se na década de 1990 e foram essenciais para o rápido desenvolvimento das vacinas contra a Covid-19.
+            
+            A tecnologia de mRNA abre portas para o desenvolvimento de vacinas contra outras doenças, como gripe, HIV, malária e zika.
+            
+            O prêmio reconhece a perseverança e a resiliência de Karikó e Weissman, e inspira novas gerações de cientistas.
+            
+            A premiação destaca a importância da pesquisa básica e sua aplicação para o bem da humanidade.`,
       lermais: "Ler mais2",
     },
     {
       id: 3,
-      tag: "Tag3",
-      title: "Título3",
-      text: "Texto3",
+      audio: audio3,
+      tag: "Ciência",
+      title: "Novo medicamento contra Alzheimer: esperança no horizonte",
+      imagem: post3,
+      text: `Esperança para pacientes com Alzheimer: Um novo medicamento experimental, o donanemabe, 
+            mostrou-se capaz de retardar o declínio cognitivo em até 60% em pacientes nos estágios iniciais da doença.
+             
+            Resultados promissores: Em testes clínicos de fase 3 com 1.736 pacientes, o donanemabe reduziu com sucesso 
+            as placas da proteína beta-amiloide no cérebro, um dos principais fatores causadores da doença. Em pacientes 
+            com baixa concentração da proteína tau, o declínio cognitivo foi 60% mais lento em comparação com o grupo placebo.
+             
+            Pontos de atenção: O medicamento pode causar "anormalidades de imagem relacionadas à amiloide" (ARIA), em casos raros 
+            levando a convulsões e hemorragia cerebral. A FDA está analisando o donanemabe e a empresa espera aprovação até o fim de 2023.
+
+            Avanço significativo: A chegada de novos medicamentos como o donanemabe marca um ponto de virada na luta contra o Alzheimer, 
+            que afeta milhões de pessoas no mundo.`,
       lermais: "Ler mais3",
     },
     {
@@ -100,6 +136,43 @@ const Noticias = () => {
       Acessibilidade: O metaverso precisa se tornar mais acessível para que todos possam participar.
       Impacto na sociedade: O metaverso tem o potencial de transformar a sociedade de várias maneiras, desde a forma como trabalhamos até a forma como nos relacionamos com o mundo.
       O metaverso é um universo de possibilidades que ainda está começando a ser explorado. As implicações dessa tecnologia são enormes e podem mudar completamente a maneira como vivemos nossas vidas.`,
+      lermais: "Ler mais",
+    },
+    {
+      id: 5,
+      tag: "Ciência",
+      audio: audio5,
+      title: "Ciência de dados e IA na saúde: otimização e escalabilidade para um futuro promissor",
+      imagem: post5,
+      text: `Desafios e oportunidades: O setor da saúde enfrenta a constante necessidade de otimizar operações e lidar 
+            com a escassez de profissionais qualificados. A ciência de dados e a IA surgem como aliadas para superar esses desafios, 
+            impulsionando a escalabilidade e a eficiência.
+
+            Convergência tecnológica: A busca por aprimoramento impulsiona a transformação digital na saúde, com a telemedicina, 
+            o monitoramento remoto, a análise e a automatização de dados como exemplos da convergência entre tecnologia e saúde.
+      
+            Benefícios da IA: A IA oferece a capacidade de desbloquear conhecimentos valiosos a partir de dados, gerenciar grandes 
+            volumes de informações e automatizar processos, otimizando o desempenho e a eficiência dos sistemas de saúde.
+      
+            Cuidados personalizados: A IA também abre portas para o fornecimento de cuidados médicos avançados e personalizados, 
+            tanto em nível nacional quanto internacional.
+      
+            Armazenamento e segurança de dados: A integração de sistemas e a migração de dados representam desafios para as 
+            organizações de saúde. A migração para a nuvem surge como uma solução viável, oferecendo benefícios como:
+      
+            Simplificação da arquitetura,
+            Redução de custos,
+            Gestão centralizada,
+            Capacidade escalável e flexível,
+            Desempenho otimizado,
+            Investimento rentável,
+            Nuvem híbrida: A implementação de uma solução de nuvem híbrida permite armazenar e gerenciar dados em uma 
+            plataforma confiável e escalável, pronta para alojar e proteger dados e aplicações críticas, além de auxiliar 
+            as organizações de saúde a operarem em múltiplos ambientes.
+      
+            Conclusão: A ciência de dados e a IA representam um futuro promissor para a saúde, otimizando operações, 
+            escalando serviços e oferecendo cuidados cada vez mais personalizados e eficientes. A migração para a 
+            nuvem e a implementação de soluções híbridas garantem a segurança e o acesso aos dados, impulsionando a transformação do setor.`,
       lermais: "Ler mais",
     },
   ];
