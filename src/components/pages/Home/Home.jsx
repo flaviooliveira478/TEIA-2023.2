@@ -4,25 +4,26 @@ import Layout from "../../Layout.jsx";
 import News from "../../News.jsx";
 import Releases from "../../Releases.jsx";
 import Footer from "../../Footer.jsx";
-import image from "../../../assets/images/1.jpg"
-import image2 from "../../../assets/images/2.jpg"
+import post1 from "../../../assets/images/post1.jpg";
 
 const Home = () => {
   const destaques = [
     {
-      imagem: image,
-      tag: "Series",
-      titulo:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatem quaerat perspiciatis tempor",
+      id: 1,
+      imagem: post1,
+      tag: "Dispositivos",
+      titulo: "Dispositivo inovador promete combater calor extremo no trabalho",
     },
     {
-      imagem: image2,
+      id: 2,
+      imagem: post1,
       tag: "Tecnologia",
       titulo:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatem quaerat perspiciatis tempor",
     },
     {
-      imagem: "",
+      id: 3,
+      imagem: post1,
       tag: "Ciência",
       titulo:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatem quaerat perspiciatis tempor",
@@ -31,7 +32,7 @@ const Home = () => {
 
   const noticias = [
     {
-      imagem: "../../assets/images/1.jpg",
+      imagem: "",
       tag: "Tag1",
       title: "Título1",
       text: "Texto1",
