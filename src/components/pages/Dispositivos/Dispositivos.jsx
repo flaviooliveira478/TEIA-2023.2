@@ -6,15 +6,17 @@ import post4 from "../../../assets/images/image-vr-leonard-ai.jpg";
 
 const Dispositivos = () => {
   return (
-    <div className="gradient-text">
-      <h2 className="titulo-device">Dispositivos</h2>
-      <p className="description-device">
-        "Explore o universo tecnológico como nunca antes! Descubra as últimas
-        novidades, análises e insights sobre dispositivos inovadores no
-        Techverse, sua fonte definitiva para tudo relacionado à tecnologia."
-      </p>
+    <div>
+      <div className="gradient-text">
+        <h2 className="titulo-device">Dispositivos</h2>
+        <p className="description-device">
+          "Explore o universo tecnológico como nunca antes! Descubra as últimas
+          novidades, análises e insights sobre dispositivos inovadores no
+          Techverse, sua fonte definitiva para tudo relacionado à tecnologia."
+        </p>
 
-      <h4 className="btn btn-primary device-primary-titulo">Notícias</h4>
+        <h4 className="btn btn-primary device-primary-titulo">Notícias</h4>
+      </div>
       <div className="container device-container">
         <div className="row">
           <div className="col-3 col-sm-6 device-square text-overlay">
