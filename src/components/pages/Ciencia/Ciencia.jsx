@@ -16,14 +16,14 @@ const Ciencia = () => {
       <div className="container science-container">
         <div className="row">
           <div className="col-3 col-sm-6 science-square">
-            <img src="" alt="ainda não tem" />
+            <img src="../../../assets/images/image-Alzheimer-leonardo-ai.jpg" alt="Imagem Alzheimer" />
             <h4></h4>
             <h4></h4>
             <p></p>
             <p></p>
           </div>
           <div className="col-3 col-sm-6 science-square">
-            <img src="" alt="ainda não tem" />
+            <img src="../../../assets/images/image-vaccine-leonardo-ai.jpg" alt="Imagem Vacina" />
             <h4></h4>
             <h4></h4>
             <p></p>

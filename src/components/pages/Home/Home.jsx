@@ -26,7 +26,7 @@ const Home = () => {
       imagem: post1,
       tag: "Ciência",
       titulo:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatem quaerat perspiciatis tempor",
+        "Nobel de Fisiologia ou Medicina premia responsáveis pelas vacinas de mRNA contra Covid-19",
     },
   ];
 
