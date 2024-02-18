@@ -9,6 +9,7 @@ import post2 from "../../../assets/images/image-vaccine-leonardo-ai.jpg";
 import post3 from "../../../assets/images/image-Alzheimer-leonardo-ai.jpg";
 import post4 from "../../../assets/images/image-vr-leonard-ai.jpg";
 import post5 from "../../../assets/images/image-ia-na-saude-leonardo-ai.jpg";
+import post6 from "../../../assets/images/image-glicose-device.jpg";
 
 /* Audio */
 import audio1 from "../../../assets/audio/audio-dispositivo-trabalho.mp3";
@@ -16,6 +17,7 @@ import audio2 from "../../../assets/audio/audio-nobel-fisiologia-medicina-2023.m
 import audio3 from "../../../assets/audio/audio-alzheimer.mp3";
 import audio4 from "../../../assets/audio/audio-metaverso.mp3";
 import audio5 from "../../../assets/audio/audio-ciencia-dados-ia-saude.mp3";
+import audio6 from "../../../assets/audio/audio-device-glicose.mp3";
 
 const Noticias = () => {
   const params = useParams();
@@ -174,6 +176,63 @@ const Noticias = () => {
             Conclusão: A ciência de dados e a IA representam um futuro promissor para a saúde, otimizando operações, 
             escalando serviços e oferecendo cuidados cada vez mais personalizados e eficientes. A migração para a 
             nuvem e a implementação de soluções híbridas garantem a segurança e o acesso aos dados, impulsionando a transformação do setor.`,
+      lermais: "Ler mais",
+    },
+    {
+      id: 6,
+      tag: "Dispositivos",
+      audio: audio6,
+      title:
+        "Dispositivo Vestível Revoluciona Monitoramento de Glicose: Adeus Picadas?",
+      imagem: post6,
+      text: `Um novo dispositivo vestível promete revolucionar o monitoramento de glicose no sangue para pessoas com diabetes. O dispositivo, ainda em desenvolvimento, utiliza sensores para medir os níveis de glicose através da pele, sem a necessidade de picadas dolorosas.
+
+      Funcionamento:
+      
+      Sensores biofotônicos: O dispositivo usa sensores biofotônicos para medir a quantidade de luz que é absorvida pela glicose na corrente sanguínea.
+      Monitoramento contínuo: Os níveis de glicose são monitorados continuamente e enviados para um aplicativo em tempo real.
+      Alertas personalizáveis: O aplicativo pode enviar alertas para o usuário quando os níveis de glicose estiverem muito altos ou baixos.
+      Benefícios:
+      
+      Menos dor e sofrimento: Elimina a necessidade de picadas frequentes no dedo para medir a glicose.
+      Monitoramento constante: Permite um acompanhamento mais preciso da glicose ao longo do dia.
+      Melhor controle do diabetes: Facilita o controle da diabetes e a prevenção de complicações.
+      Desafios:
+      
+      Precisão: A precisão do dispositivo ainda precisa ser validada em estudos clínicos.
+      Custo: O custo do dispositivo ainda não foi definido.
+      Acessibilidade: A disponibilidade do dispositivo ainda não foi confirmada em todos os países.
+      Conclusão: O dispositivo vestível para monitoramento de glicose representa um grande avanço para o tratamento da diabetes. Se os desafios forem superados, essa tecnologia poderá melhorar significativamente a qualidade de vida de milhões de pessoas.`,
+      lermais: "Ler mais",
+    },
+    {
+      id: 7,
+      tag: "Dispositivos",
+      audio: audio5,
+      title: "",
+
+      imagem: post5,
+      text: "",
+      lermais: "Ler mais",
+    },
+    {
+      id: 8,
+      tag: "Dispositivos",
+      audio: audio5,
+      title: "",
+
+      imagem: post5,
+      text: "",
+      lermais: "Ler mais",
+    },
+    {
+      id: 9,
+      tag: "Dispositivos",
+      audio: audio5,
+      title: "",
+
+      imagem: post5,
+      text: "",
       lermais: "Ler mais",
     },
   ];
