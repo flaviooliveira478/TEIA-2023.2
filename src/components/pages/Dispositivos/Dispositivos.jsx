@@ -4,6 +4,9 @@ import "./dispositivos.css";
 import post1 from "../../../assets/images/image-deviceheat-leonard-ai.jpg";
 import post4 from "../../../assets/images/image-vr-leonard-ai.jpg";
 import post6 from "../../../assets/images/image-glicose-device.jpg";
+import post7 from "../../../assets/images/image-robo-automatization.jpg";
+import post8 from "../../../assets/images/image-lenses-contact.jpg";
+import post9 from "../../../assets/images/image-3d-impression.jpg";
 
 const Dispositivos = () => {
   return (
@@ -61,7 +64,7 @@ const Dispositivos = () => {
 
           <div className="col-3 col-sm-6 device-square text-overlay">
             <Link to="../noticias/6">
-              <img src={post6} alt="dispositivo oculos vr" />
+              <img src={post6} alt="dispositivo glicose" />
               <div className="overlay-text">
                 <h4 className="new-h4">Dispositivos</h4>
                 <h4>
@@ -80,36 +83,53 @@ const Dispositivos = () => {
             </Link>
           </div>
           <div className="col-3 col-sm-6 device-square text-overlay">
-            <Link to="../noticias/4">
-              <img src={post4} alt="dispositivo oculos vr" />
+            <Link to="../noticias/7">
+              <img src={post7} alt="robo automatization" />
               <div className="overlay-text">
                 <h4 className="new-h4">Dispositivos</h4>
-                <h4>
-                  Metaverso: Mergulhando em um Novo Mundo de Possibilidades
-                </h4>
+                <h4>Robôs: Novas Fronteiras da Automação</h4>
                 <p>
-                  O metaverso está se tornando uma das tendências tecnológicas
-                  mais quentes do momento. Essa nova fronteira digital promete
-                  revolucionar a maneira como nos comunicamos, trabalhamos, nos
-                  divertimos e experimentamos o mundo.
+                  Os robôs estão se tornando cada vez mais sofisticados e
+                  capazes de realizar uma ampla gama de tarefas. Essa tendência
+                  está revolucionando diversos setores da indústria, desde a
+                  manufatura até a saúde e o varejo. Novas Fronteiras da
+                  Robótica:
                 </p>
                 <p className="lermore">Ler Mais</p>
               </div>
             </Link>
           </div>
           <div className="col-3 col-sm-6 device-square text-overlay">
-            <Link to="../noticias/4">
-              <img src={post4} alt="dispositivo oculos vr" />
+            <Link to="../noticias/8">
+              <img src={post8} alt="dispositivo oculos vr" />
               <div className="overlay-text">
                 <h4 className="new-h4">Dispositivos</h4>
                 <h4>
-                  Metaverso: Mergulhando em um Novo Mundo de Possibilidades
+                  Impressão 3D: Personalização Ilimitada para um Mundo à Sua
+                  Medida
                 </h4>
                 <p>
-                  O metaverso está se tornando uma das tendências tecnológicas
-                  mais quentes do momento. Essa nova fronteira digital promete
-                  revolucionar a maneira como nos comunicamos, trabalhamos, nos
-                  divertimos e experimentamos o mundo.
+                  Imagine poder acessar informações e interagir com o mundo
+                  digital sem precisar de um smartphone ou outro dispositivo.
+                </p>
+                <p className="lermore">Ler Mais</p>
+              </div>
+            </Link>
+          </div>
+          <div className="col-3 col-sm-6 device-square text-overlay">
+            <Link to="../noticias/9">
+              <img src={post9} alt="dispositivo oculos vr" />
+              <div className="overlay-text">
+                <h4 className="new-h4">Dispositivos</h4>
+                <h4>
+                  Impressão 3D: Personalização Ilimitada para um Mundo à Sua
+                  Medida
+                </h4>
+                <p>
+                  Impressão 3D: Personalização Ilimitada para um Mundo à Sua
+                  Medida A impressão 3D está revolucionando a forma como criamos
+                  e consumimos produtos, abrindo um universo de possibilidades
+                  para a personalização.
                 </p>
                 <p className="lermore">Ler Mais</p>
               </div>

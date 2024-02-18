@@ -10,6 +10,9 @@ import post3 from "../../../assets/images/image-Alzheimer-leonardo-ai.jpg";
 import post4 from "../../../assets/images/image-vr-leonard-ai.jpg";
 import post5 from "../../../assets/images/image-ia-na-saude-leonardo-ai.jpg";
 import post6 from "../../../assets/images/image-glicose-device.jpg";
+import post7 from "../../../assets/images/image-robo-automatization.jpg";
+import post8 from "../../../assets/images/image-lenses-contact.jpg";
+import post9 from "../../../assets/images/image-3d-impression.jpg";
 
 /* Audio */
 import audio1 from "../../../assets/audio/audio-dispositivo-trabalho.mp3";
@@ -18,6 +21,9 @@ import audio3 from "../../../assets/audio/audio-alzheimer.mp3";
 import audio4 from "../../../assets/audio/audio-metaverso.mp3";
 import audio5 from "../../../assets/audio/audio-ciencia-dados-ia-saude.mp3";
 import audio6 from "../../../assets/audio/audio-device-glicose.mp3";
+import audio7 from "../../../assets/audio/audio-robos.mp3";
+import audio8 from "../../../assets/audio/audio-lenses-contact.mp3";
+import audio9 from "../../../assets/audio/audio-3d-impression.mp3";
 
 const Noticias = () => {
   const params = useParams();
@@ -208,31 +214,107 @@ const Noticias = () => {
     {
       id: 7,
       tag: "Dispositivos",
-      audio: audio5,
-      title: "",
+      audio: audio7,
+      title: "Robôs: Novas Fronteiras da Automação",
 
-      imagem: post5,
-      text: "",
+      imagem: post7,
+      text: `Os robôs estão se tornando cada vez mais sofisticados e capazes de realizar uma ampla gama de tarefas. Essa tendência está revolucionando diversos setores da indústria, desde a manufatura até a saúde e o varejo.
+
+      Novas Fronteiras da Robótica:
+      
+      Robôs colaborativos: Trabalham lado a lado com humanos em tarefas complexas, aumentando a produtividade e a segurança.
+      Robôs autônomos: Operam sem a necessidade de intervenção humana, realizando tarefas repetitivas ou perigosas.
+      Robôs sociais: Interagem com humanos de forma natural, prestando serviços como atendimento ao cliente e educação.
+      Robôs bioinspirados: Inspirados na natureza, esses robôs são capazes de se adaptar a diferentes ambientes e realizar tarefas complexas.
+      Robôs com inteligência artificial: Utilizam IA para tomar decisões autônomas e aprender com suas experiências.
+      Aplicações da Robótica:
+      
+      Manufatura: Realização de tarefas repetitivas e perigosas, aumento da produtividade e da qualidade dos produtos.
+      Saúde: Assistência em cirurgias, realização de exames, reabilitação de pacientes.
+      Varejo: Atendimento ao cliente, reposição de produtos, entrega de pedidos.
+      Logística: Movimentação de cargas, organização de armazéns, entrega de produtos.
+      Agricultura: Plantio, colheita, irrigação, controle de pragas.
+      Limpeza: Limpeza de casas, escritórios, ruas, outros ambientes.
+      Segurança: Monitoramento de ambientes, proteção de pessoas e bens.
+      Benefícios da Robótica:
+      
+      Aumento da produtividade: Os robôs podem realizar tarefas de forma mais rápida e eficiente que os humanos.
+      Melhoria da qualidade: Os robôs podem realizar tarefas com maior precisão e menos erros.
+      Redução de custos: Os robôs podem reduzir os custos de produção e operação.
+      Segurança no trabalho: Os robôs podem realizar tarefas perigosas que antes eram feitas por humanos.
+      Novas oportunidades de trabalho: A robótica cria novas oportunidades de trabalho em áreas como desenvolvimento, engenharia e manutenção.
+      Desafios da Robótica:
+      
+      Alto custo: Os robôs ainda podem ser muito caros para algumas empresas.
+      Desemprego: A robótica pode levar à perda de alguns tipos de trabalho.
+      Ética: É importante garantir que os robôs sejam usados de forma ética e responsável.
+      Segurança: É importante garantir que os robôs sejam seguros para os humanos.
+      O futuro da robótica é promissor. Espera-se que os robôs se tornem cada vez mais presentes em nossas vidas, impactando diversos setores da sociedade. É importante estarmos preparados para essa mudança e aproveitar os benefícios que a robótica pode oferecer.`,
       lermais: "Ler mais",
     },
     {
       id: 8,
       tag: "Dispositivos",
-      audio: audio5,
-      title: "",
+      audio: audio8,
+      title:
+        "Lentes de contato inteligentes: a próxima fronteira da tecnologia vestível?",
 
-      imagem: post5,
-      text: "",
+      imagem: post8,
+      text: `Empresa desenvolve lentes de contato inteligentes com realidade aumentada, prometendo revolucionar a maneira como nos relacionamos com o mundo ao nosso redor.
+
+      Imagine poder acessar informações e interagir com o mundo digital sem precisar de um smartphone ou outro dispositivo. As lentes de contato inteligentes prometem fazer isso e muito mais, abrindo um novo mundo de possibilidades para a tecnologia vestível.
+      
+      Funcionalidades:
+      
+      Exibição de informações: As lentes podem exibir informações como navegação, notificações, mensagens e até mesmo legendas em tempo real.
+      Interação com o ambiente: As lentes podem ser usadas para controlar dispositivos inteligentes, fazer compras e até mesmo jogar jogos.
+      Monitoramento de saúde: As lentes podem monitorar a saúde do usuário, como frequência cardíaca, pressão arterial e níveis de glicose.
+      Benefícios:
+      
+      Mãos livres: As lentes liberam suas mãos para outras tarefas.
+      Informação instantânea: As informações são exibidas diretamente em seu campo de visão, para que você não precise desviar o olhar para um dispositivo.
+      Experiência natural: As lentes são leves e confortáveis de usar, proporcionando uma experiência natural e imersiva.
+      Desafios:
+      
+      Tecnologia em desenvolvimento: As lentes de contato inteligentes ainda estão em desenvolvimento e podem levar alguns anos para serem comercializadas em larga escala.
+      Custo: As lentes podem ser caras, especialmente nos primeiros modelos.
+      Preocupações com a privacidade: As lentes podem coletar dados sobre o usuário, o que levanta preocupações com a privacidade.
+      O futuro das lentes de contato inteligentes é promissor. As empresas estão trabalhando para superar os desafios e desenvolver lentes que sejam acessíveis, seguras e fáceis de usar. As lentes de contato inteligentes podem revolucionar a maneira como nos relacionamos com o mundo ao nosso redor, tornando a vida mais fácil, mais eficiente e mais divertida.`,
       lermais: "Ler mais",
     },
     {
       id: 9,
       tag: "Dispositivos",
-      audio: audio5,
-      title: "",
+      audio: audio9,
+      title:
+        "Impressão 3D: Personalização Ilimitada para um Mundo à Sua Medida",
 
-      imagem: post5,
-      text: "",
+      imagem: post9,
+      text: `A impressão 3D está revolucionando a forma como criamos e consumimos produtos, abrindo um universo de possibilidades para a personalização. Imagine poder imprimir objetos sob medida, com designs únicos e funcionalidades específicas para suas necessidades e desejos.
+
+      Personalização sem Limites:
+      
+      Crie objetos únicos: Imprima peças personalizadas para hobbies, decoração, vestuário, acessórios e muito mais.
+      Adapte produtos à sua necessidade: Personalize próteses, órteses, calçados e outros itens para atender às suas necessidades específicas.
+      Produza em pequenas quantidades: Imprima protótipos, peças de reposição ou itens personalizados sem a necessidade de grandes tiragens.
+      Torne sua marca única: Imprima produtos com sua logo, design ou mensagem, criando peças exclusivas para sua marca.
+      Benefícios da Personalização na Impressão 3D:
+      
+      Maior liberdade de criação: Dê vida às suas ideias com designs complexos e personalizados.
+      Melhor ajuste e ergonomia: Crie objetos que se adaptam perfeitamente ao seu corpo e às suas necessidades.
+      Produção sob demanda: Evite o desperdício e produza apenas o que você precisa, quando precisa.
+      Sustentabilidade e economia: Reduza o impacto ambiental e economize recursos com produção local e personalizada.
+      Tecnologias para Personalização:
+      
+      Modelagem 3D: Utilize softwares para criar modelos 3D personalizados com as características desejadas.
+      Impressoras 3D: Escolha entre diversas tecnologias de impressão 3D para dar vida aos seus designs.
+      Materiais inovadores: Explore uma ampla gama de materiais para impressão, desde plásticos e resinas até metais e biomateriais.
+      Desafios da Personalização em Impressão 3D:
+      
+      Custo: As impressoras 3D ainda podem ser caras para uso pessoal, mas os preços estão diminuindo rapidamente.
+      Complexidade: O processo de criação e impressão 3D pode ser complexo para iniciantes, mas existem recursos disponíveis para facilitar o aprendizado.
+      Propriedade intelectual: É importante proteger seus designs e modelos 3D para evitar cópias não autorizadas.
+      O futuro da personalização na impressão 3D é promissor. Essa tecnologia tem o potencial de democratizar a produção, permitindo que qualquer pessoa crie objetos personalizados com facilidade e economia.`,
       lermais: "Ler mais",
     },
   ];
