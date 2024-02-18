@@ -145,14 +145,19 @@ ul.navbar-nav {
 .releases h2 {
   padding-left: 79px;
   margin-top: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .releases-square {
-  /* border: 1px solid white; */
   margin-bottom: 30px;
 }
-
+.lermais {
+  color: #0d6efd;
+}
+.releases-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 /* FOOTER */
 
 footer {

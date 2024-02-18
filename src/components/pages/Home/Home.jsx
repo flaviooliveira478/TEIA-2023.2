@@ -71,12 +71,23 @@ const Home = () => {
 
   const lancamentos = [
     {
-      tag: "Tag1",
-      title: "Título1",
-      text: "Texto1",
+      tag: "Dispositivos",
+      title: "Robôs: Novas Fronteiras da Automação",
+      text: `Os robôs estão se tornando cada vez mais sofisticados e
+      capazes de realizar uma ampla gama de tarefas. Essa tendência
+      está revolucionando diversos setores da indústria, desde a
+      manufatura até a saúde e o varejo. Novas Fronteiras da
+      Robótica:`,
       lermais: "Ler mais",
     },
-    { tag: "Tag2", title: "Título2", text: "Texto2", lermais: "Ler mais2" },
+    {
+      tag: "Dispositivos",
+      title:
+        "Lentes de contato inteligentes: a próxima fronteira da tecnologia vestível?",
+      text: `Imagine poder acessar informações e interagir com o mundo
+      digital sem precisar de um smartphone ou outro dispositivo.`,
+      lermais: "Ler mais",
+    },
   ];
   return (
     <div>
