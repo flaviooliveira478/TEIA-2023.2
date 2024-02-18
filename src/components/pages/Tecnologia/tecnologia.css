@@ -8,8 +8,8 @@
       rgb(6, 9, 15) 100%
     ),
     url("../../../assets/images/technology-leonard-ai.jpg");
-  background-size: 50%;
-  background-position: center;
+  background-size: 76% auto;
+  background-position: top;
 }
 
 .gradient-text-tech h2 {

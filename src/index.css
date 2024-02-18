@@ -62,6 +62,7 @@ ul.navbar-nav {
   height: 100%;
   object-fit: cover; /* ou 'contain', dependendo do efeito desejado */
   border-radius: 12px;
+  border: 1px solid rgb(21, 27, 38);
 }
 
 .img-left,
@@ -97,9 +98,6 @@ ul.navbar-nav {
   margin-bottom: 40px;
 }
 
-/* .news-container {
-}
- */
 .news-square {
   position: relative; /* Adicionado para definir o contexto de posição para a sobreposição */
   height: 600px;
