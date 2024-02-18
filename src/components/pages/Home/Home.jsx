@@ -3,8 +3,13 @@ import Title from "../../Title.jsx";
 import Layout from "../../Layout.jsx";
 import News from "../../News.jsx";
 import Releases from "../../Releases.jsx";
+
+/* imagens Detasques */
 import post1 from "../../../assets/images/image-deviceheat-leonard-ai.jpg";
 import post3 from "../../../assets/images/image-Alzheimer-leonardo-ai.jpg";
+
+/* Imagens Notícias mais recentes */
+import noticia1 from "../../../assets/images/2.jpg";
 
 const Home = () => {
   const destaques = [
@@ -32,21 +37,22 @@ const Home = () => {
 
   const noticias = [
     {
-      imagem: "",
-      tag: "Tag1",
-      title: "Título1",
-      text: "Texto1",
+      imagem: noticia1,
+      tag: "Tecnologia",
+      title:
+        "Avanços Revolucionários na Inteligência Artificial Prometem Transformar Radicalmente a Tecnologia",
+      text: "Uma nova era de inovação está se desenhando no horizonte da tecnologia, impulsionada por avanços revolucionários na inteligência artificial (IA).",
       lermais: "Ler mais1",
     },
     {
-      imagem: "imagem2.jpg",
-      tag: "Tag2",
+      imagem: noticia1,
+      tag: "Ciência",
       title: "Título2",
       text: "Texto2",
       lermais: "Ler mais2",
     },
     {
-      imagem: "imagem3.jpg",
+      imagem: noticia1,
       tag: "Tag3",
       title: "Título3",
       text: "Texto3",
