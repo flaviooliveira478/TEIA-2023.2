@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import AudioPlayer from "../../AudioPlayer";
-import Footer from "../../Footer";
 import "./Noticias.css";
 
 /* Imagens*/
@@ -12,10 +11,10 @@ import post4 from "../../../assets/images/image-vr-leonard-ai.jpg";
 import post5 from "../../../assets/images/image-ia-na-saude-leonardo-ai.jpg";
 
 /* Audio */
-import audio1 from "../../../assets/audio/Dispositivo inovador promete combater calor extremo no trabalho.mp3";
+import audio1 from "../../../assets/audio/audio-dispositivo-trabalho.mp3";
 import audio2 from "../../../assets/audio/audio-nobel-fisiologia-medicina-2023.mp3";
 import audio3 from "../../../assets/audio/audio-alzheimer.mp3";
-import audio4 from "../../../assets/audio/Metaverso Mergulhando em um Novo Mundo de Possibilidades.mp3";
+import audio4 from "../../../assets/audio/audio-metaverso.mp3";
 import audio5 from "../../../assets/audio/audio-ciencia-dados-ia-saude.mp3";
 
 const Noticias = () => {
