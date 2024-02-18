@@ -105,8 +105,8 @@ const Dispositivos = () => {
               <div className="overlay-text">
                 <h4 className="new-h4">Dispositivos</h4>
                 <h4>
-                  Impressão 3D: Personalização Ilimitada para um Mundo à Sua
-                  Medida
+                  Lentes de contato inteligentes: a próxima fronteira da
+                  tecnologia vestível?
                 </h4>
                 <p>
                   Imagine poder acessar informações e interagir com o mundo

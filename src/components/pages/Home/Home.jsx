@@ -11,6 +11,8 @@ import post2 from "../../../assets/images/image-vaccine-leonardo-ai.jpg";
 
 /* Imagens Notícias mais recentes */
 import noticia1 from "../../../assets/images/2.jpg";
+import noticia2 from "../../../assets/images/image-robo-automatization.jpg";
+import noticia3 from "../../../assets/images/image-lenses-contact.jpg";
 
 const Home = () => {
   const destaques = [
@@ -43,21 +45,27 @@ const Home = () => {
       title:
         "Avanços Revolucionários na Inteligência Artificial Prometem Transformar Radicalmente a Tecnologia",
       text: "Uma nova era de inovação está se desenhando no horizonte da tecnologia, impulsionada por avanços revolucionários na inteligência artificial (IA).",
-      lermais: "Ler mais1",
+      lermais: "Ler mais",
     },
     {
-      imagem: noticia1,
-      tag: "Ciência",
-      title: "Título2",
-      text: "Texto2",
-      lermais: "Ler mais2",
+      imagem: noticia2,
+      tag: "Dispositivos",
+      title: "Robôs: Novas Fronteiras da Automação",
+      text: `Os robôs estão se tornando cada vez mais sofisticados e
+      capazes de realizar uma ampla gama de tarefas. Essa tendência
+      está revolucionando diversos setores da indústria, desde a
+      manufatura até a saúde e o varejo. Novas Fronteiras da
+      Robótica...`,
+      lermais: "Ler mais",
     },
     {
-      imagem: noticia1,
-      tag: "Tag3",
-      title: "Título3",
-      text: "Texto3",
-      lermais: "Ler mais3",
+      imagem: noticia3,
+      tag: "Dispositivos",
+      title:
+        "Lentes de contato inteligentes: a próxima fronteira da tecnologia vestível?",
+      text: `Imagine poder acessar informações e interagir com o mundo
+      digital sem precisar de um smartphone ou outro dispositivo.`,
+      lermais: "Ler mais",
     },
   ];
 
@@ -66,7 +74,7 @@ const Home = () => {
       tag: "Tag1",
       title: "Título1",
       text: "Texto1",
-      lermais: "Ler mais1",
+      lermais: "Ler mais",
     },
     { tag: "Tag2", title: "Título2", text: "Texto2", lermais: "Ler mais2" },
   ];
