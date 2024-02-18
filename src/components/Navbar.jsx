@@ -26,6 +26,7 @@ const Nav = () => {
       <div className="container-fluid">
         <div>
           <Link className="navbar-brand" to="/">
+            <img src={logo} alt="" className="logo" />
             Techverse
           </Link>
         </div>

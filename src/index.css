@@ -13,6 +13,7 @@ body {
 
 .navbar-brand {
   padding-left: 20px;
+  font-size: 1.6rem !important;
 }
 .nav-link,
 .navbar-brand {
@@ -20,8 +21,7 @@ body {
 }
 
 .nav-item {
-  margin-left: 18px;
-  letter-spacing: 1px;
+  margin-left: 10px;
 }
 
 ul.navbar-nav {
@@ -32,6 +32,9 @@ ul.navbar-nav {
   flex-grow: 0 !important;
 }
 
+.logo {
+  max-width: 80px;
+}
 /* TITLE */
 
 .title {
