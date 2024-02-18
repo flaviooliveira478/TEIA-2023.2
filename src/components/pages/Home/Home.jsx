@@ -7,6 +7,7 @@ import Releases from "../../Releases.jsx";
 /* imagens Detasques */
 import post1 from "../../../assets/images/image-deviceheat-leonard-ai.jpg";
 import post3 from "../../../assets/images/image-Alzheimer-leonardo-ai.jpg";
+import post2 from "../../../assets/images/image-vaccine-leonardo-ai.jpg";
 
 /* Imagens Notícias mais recentes */
 import noticia1 from "../../../assets/images/2.jpg";
@@ -21,10 +22,10 @@ const Home = () => {
     },
     {
       id: 2,
-      imagem: post1,
-      tag: "Tecnologia",
+      imagem: post2,
+      tag: "Ciência",
       titulo:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatem quaerat perspiciatis tempor",
+        "Nobel de Fisiologia ou Medicina: Reconhecimento por Vacinas de mRNA",
     },
     {
       id: 3,
