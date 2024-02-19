@@ -24,7 +24,7 @@ const AudioPlayer = ({ src }) => {
 
   return (
     <div>
-      <audio ref={audioRef} src={src} playbackRate={playbackRate}></audio>
+      <audio ref={audioRef} src={src} playbackrate={playbackRate}></audio>
       <button onClick={play}>Play</button>
       <button onClick={pause}>Pause</button>
       <button onClick={increaseSpeed}>Aumentar Velocidade</button>
