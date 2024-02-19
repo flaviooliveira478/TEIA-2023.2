@@ -30,3 +30,11 @@ body {
 .sobre-container a:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  .sobre-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+}
