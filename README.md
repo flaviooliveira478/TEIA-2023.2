@@ -30,6 +30,10 @@ Instale as dependências:
 yarn install
 ```
 
+### Link de acesso ao projeto
+
+https://teia-2023-2.vercel.app
+
 ### Modo Desenvolvimento
 
 Para iniciar o aplicativo em modo de desenvolvimento com hot module replacement (HMR), execute o seguinte comando:
