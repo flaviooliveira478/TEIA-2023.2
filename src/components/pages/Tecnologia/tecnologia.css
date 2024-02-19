@@ -109,3 +109,26 @@
   color: #0d6efd;
   text-align: left;
 }
+
+@media (max-width: 768px) {
+  .gradient-text-tech {
+    margin: 8px;
+    padding-top: 26px;
+    height: 430px;
+    border-radius: 8px;
+    background-image: linear-gradient(
+        rgba(6, 9, 15, 0.4) 53.65%,
+        rgb(6, 9, 15) 100%
+      ),
+      url("../../../assets/images/technology-leonard-ai.jpg");
+    background-size: 120% auto;
+    background-position: top;
+  }
+
+  .gradient-text-tech p {
+    color: white;
+    text-align: left;
+    font-size: 1.2rem;
+    margin-left: 30px;
+  }
+}

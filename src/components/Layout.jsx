@@ -6,7 +6,7 @@ const Layout = ({ infos }) => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-6 img-left">
+        <div className="col-md-6 img-left col-12">
           <Link to={`noticias/${infos[0].id}`}>
             <div className="img-overlay"></div>
             <img
@@ -20,7 +20,7 @@ const Layout = ({ infos }) => {
             </div>
           </Link>
         </div>
-        <div className="col-6">
+        <div className="col-md-6 col-12">
           <div className="col-12 img-right">
             <Link to={`noticias/${infos[1].id}`}>
               <div className="img-overlay"></div>

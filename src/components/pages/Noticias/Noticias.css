@@ -26,3 +26,18 @@ img {
   height: 500px;
   border-radius: 12px;
 }
+
+@media (max-width: 768px) {
+  .news-post-p {
+    text-align: center;
+    color: rgb(163, 163, 163);
+    text-align: justify;
+    font-size: 1.2em;
+    padding: 17px;
+  }
+  .noticias-posts img {
+    object-fit: cover;
+    width: 300px;
+    height: auto;
+  }
+}

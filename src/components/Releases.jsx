@@ -8,7 +8,7 @@ const Releases = ({ dados }) => {
       <h2>Lançamentos</h2>
       <div className="container ">
         <div className="row">
-          <div className="col-6 releases-square">
+          <div className="col-md-6 col-12 releases-square">
             <Link
               to={`noticias/7`}
               style={{ textDecoration: "none", color: "white" }}
@@ -19,7 +19,7 @@ const Releases = ({ dados }) => {
               <p className="lermais">{dados[0].lermais}</p>
             </Link>
           </div>
-          <div className="col-6 releases-square">
+          <div className="col-md-6 col-12 releases-square">
             <Link
               to={`noticias/8`}
               style={{ textDecoration: "none", color: "white" }}

@@ -183,6 +183,30 @@ footer {
   .navbar-collapse {
     flex-grow: 1 !important;
   }
+
+  .img-left {
+    height: 550px;
+    margin-bottom: 20px;
+  }
+
+  .news {
+    margin: 20px;
+  }
+  .news h2 {
+    padding-left: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 2rem;
+  }
+  .releases {
+    margin: 20px;
+  }
+  footer {
+    font-size: 18px;
+  }
+  .title p {
+    font-size: 1rem;
+  }
 }
 
 /* LARGE SCREENS */
