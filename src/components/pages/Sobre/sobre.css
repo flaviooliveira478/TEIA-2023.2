@@ -1,0 +1,32 @@
+body {
+  height: auto;
+}
+.sobre-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 110px;
+}
+
+.sobre-container h1 {
+  font-size: 30px;
+  color: white !important;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.sobre-container p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: white;
+  text-align: justify;
+}
+
+.sobre-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.sobre-container a:hover {
+  text-decoration: underline;
+}
